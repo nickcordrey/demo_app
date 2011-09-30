@@ -54,7 +54,7 @@ class UsersController < ApplicationController
   end
 
   # PUT /users/1
-  # PUT /users/1.xml
+
   def update
     @user = User.find(params[:id])
 
